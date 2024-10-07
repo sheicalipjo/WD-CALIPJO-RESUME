@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+nav {
+border-radius: 12px;
+background: #ffffff5d;
+border: 1px solid #ffffff65;
+backdrop-filter: blur;
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+align-content: flex-end;
+align-items: center;
+display: flex;
+justify-content: space-around;
+}
+
+img[src="./assets/img/xiullustration.png"] {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    height: 5em;
+  }
+
+.space {
+    padding: 10px;
+}
+
+body {
+        padding: 60px;
+        font-size: 16px;
+        color: #fff;
+        background: linear-gradient(rgb(190, 92, 108), rgb(255, 254, 254), rgb(240, 134, 152));
+        background-repeat: no-repeat;
+        background-size: 100%; 
+
+    }
+
+.about {
+border-radius: 12px;
+background: #ffffff5d;
+border: 1px solid #ffffff65;
+backdrop-filter: blur;
+list-style-type: none;
+margin: 0;
+justify-content: center;
+align-items: center;
+display: flex;
+font-family: "Montserrat", sans-serif;
+
+}
+
+.eeiaimg {
+    padding-left: 10%;
+
+}
+
+.aboutinfo {
+    align-items: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 5px;
+}
+
+img[src="./assets/img/IMAGE1.png"] {
+    border-radius: 50%;
+    max-width: 100em;}
+
+.aboutmeheader {
+        border-radius: 12px;
+        background: #ffffff5d;
+        border: 1px solid #ffffff65;
+        backdrop-filter: blur;
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;}
+
+.aboutmedesc {
+    align-items: center;
+    text-align: center;
+    padding: 7%;
+    justify-content: end;
+}
+
+.educ2 {
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-size: 70% 70;}
+
+.educ3 {
+    text-indent:50px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;}
+
+.educ4 {
+        text-indent:100px;
+        font-weight: light;
+        color:  rgb(119, 33, 33);
+        font-family: "Montserrat", sans-serif;}
