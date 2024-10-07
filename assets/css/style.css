@@ -11,6 +11,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 font-family: "Montserrat", sans-serif;
+font-weight: bold;
 align-content: flex-end;
 align-items: center;
 display: flex;
@@ -32,7 +33,7 @@ body {
         padding: 60px;
         font-size: 16px;
         color: #fff;
-        background: linear-gradient(rgb(190, 92, 108), rgb(255, 254, 254), rgb(240, 134, 152));
+        background: linear-gradient(rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));
         background-repeat: no-repeat;
         background-size: 100%; 
 
@@ -49,6 +50,7 @@ justify-content: center;
 align-items: center;
 display: flex;
 font-family: "Montserrat", sans-serif;
+font-weight: normal;
 
 }
 
@@ -62,6 +64,7 @@ font-family: "Montserrat", sans-serif;
     text-align: center;
     padding-left: 5%;
     padding-bottom: 5px;
+    font-weight: lighter;
 }
 
 img[src="./assets/img/IMAGE1.png"] {
@@ -77,7 +80,8 @@ img[src="./assets/img/IMAGE1.png"] {
         margin: 0;
         padding: 10px;
         text-align: center;
-        font-family: "Montserrat", sans-serif;}
+        font-family: "Montserrat", sans-serif;
+        font-weight: lighter;}
 
 .aboutmedesc {
     align-items: center;
