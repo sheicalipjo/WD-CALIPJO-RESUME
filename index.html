@@ -26,15 +26,63 @@
         );
         }
         
+        div.gallery {
+        border: 1px solid #cccccc00;
+        }
+
+        div.gallery:hover {
+        border: 1px solid #9e1e1e;
+        border-radius: 25px;
+        }
+
+        div.gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+        }
+
+        div.desc {
+        padding: 15px;
+        text-align: center;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+        }
+
+        @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+        }
+
+        .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
         </style>
     </head>
 <nav>
     <a id="illust" href="#"><img src="./assets/img/xiullustration.png"/></a>
     <a href="#aboutme" class="menu">About Me</a>
     <a href="#education" class="menu">Education</a>
-    <a href="#" class="menu">Skills</a>
-    <a href="#" class="menu">Experience</a>
-    <a href="#" class="menu">References</a>
+    <a href="#skill" class="menu">Skills</a>
+    <a href="#experience" class="menu">Experience</a>
+    <a href="#artwork" class="menu">Artwork</a>
 </nav>
 
 <div class="space"></div>
@@ -68,21 +116,280 @@
     <div id="education" class="education">
         <div class="educ2">
             <h3> SAINT LOUIS SCHOOL</h3>
-            <p class="educ3">Pre-K to Grade 10</p>
+            <p class="educ3">2007-2020</p>
             <p class="educ4">Pre-K to Grade 10</p>
             <hr class="gradient">
             <h3 class="smu"> SAINT MARY'S UNIVERSITY</h3>
-            <p class="educ3">Senior High School</p>
-            <p class="educ4">Pre-K to Grade 10</p>
+            <p class="educ3">2020-2022</p>
+            <p class="educ4">Senior High School</p>
             <hr class="gradient">
             <h3 class="feu"> FEU INSTITUTE OF TECHNOLOGY</h3>
-            <p class="educ3">College</p>
-            <p class="educ4">Pre-K to Grade 10</p>
+            <p class="educ3">2023-Present</p>
+            <p class="educ4">College</p>
             <hr class="gradient">
         </div>
     </div>
 
     <div class="space"></div>
     <hr class="gradient">
+<div id="skill" class="skill">
+    <h3 style="font-size: 300%" alignment="center">SKILLS</h3>
+    <div id="skills" class="skills">
+        <p> Adobe Photoshop</p>
+        <div class="container">
+            <div class="skills ps">60%</div>
+        </div>
+        <p> Adobe Illustrator</p>
+        <div class="container">
+            <div class="skills ai">60%</div>
+        </div>
+        <p> Clip Studio Paint</p>
+        <div class="container">
+            <div class="skills csp">95%</div>
+        </div>
+        <p> Vegas Pro</p>
+        <div class="container">
+            <div class="skills vgs">80%</div>
+        </div>
+        <p> Adobe Audition</p>
+        <div class="container">
+            <div class="skills au">50%</div>
+        </div>
+        <p> Autodesk Maya</p>
+        <div class="container">
+            <div class="skills ma">40%</div>
+        </div>
+        <p> Canva</p>
+        <div class="container">
+            <div class="skills can">80%</div>
+        </div>
+    </div>
+</div>
+
+<div class="space"></div>
+<hr class="gradient">
+<div class="space"></div>
+
+<div id="experience" class="experience">
+    <h3 id="expheader" class="expheader" style="font-size: 300%" alignment="center">EXPERIENCE</h3>
+    <div class="space"></div>
+
+<div id="experience1" class="experience1">
+        <h3> FREELANCE ILLUSTRATOR (2017-Present)</h3>
+        <p class="educ3">Founder / Co-Founder</p>
+        <p class="educ4">The work included drawing various art requested by clients, ranging from easy poses that focused on the characters’ faces to the more complex, out-of-the-comfort-zone ones. It is challenging but not difficult, as there will always be a learning curve in every work scenario.</p>
+        <hr class="gradient">
+
+        <h3> ARTISTS IN NEED PH CHARITY (2018-2021)</h3>
+        <p class="educ3">Self-Employed / Under Independent Contracts</p>
+        <p class="educ4">A charity founded in May 5, 2019, it aimed to be a non-profit for artists who want to start their digital art journey but are not able to buy the starter equipment. The project has been on hold ever since 2021 due to time constraints in the founders’ schedules but it is not cancelled. It will be picked up when the scheduling conflicts will be resolved.</p>
+        <hr class="gradient">
+
+        <h3> FREELANCE LIVE2D RIGGER / VTUBER MODEL ARTIST (2020-Present)</h3>
+        <p class="educ3">Self-Employed / Under Independent Contracts</p>
+        <p class="educ4">Going along with the 2020 VTuber trend, Sheillice took high interest in the functions of Live2D, working for various independent VTubers for months developing their VTuber models and 2.5D animations.</p>
+        <hr class="gradient">
+
+        <h3> ARTIST ALLEY EXHIBITOR / MERCHANT (2024-Present)</h3>
+        <p class="educ3">Various Art Markets (Patrons of the Arts, Komiket, Sticky Expo, etc.)</p>
+        <p class="educ4">A new business venture that Sheillice has been eyeing ever since 2015, she finally had the chance to try out selling her art in an art market. It is a positive change and while, like most businesses, revenue will not come back quick, she believes it is a good work experience as it puts her in the spot of endorsing and advertising while also have the opportunity to network.</p>
+        <hr class="gradient">
+    </div>
+</div>
+
+<div class="space"></div>
+<hr class="gradient">
+<div class="space"></div>
+
+<div id="artwork" class="artwork">
+    <h3 id="artheader" class="artheader" style="font-size: 300%" alignment="center">ARTWORK</h3>
+    <div class="space"></div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/1.png">
+        <img src="./assets/img/1.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/2.png">
+        <img src="./assets/img/2.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/3.png">
+        <img src="./assets/img/3.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/4.png">
+        <img src="./assets/img/4.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/5.png">
+        <img src="./assets/img/5.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/6.png">
+        <img src="./assets/img/6.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/7.png">
+        <img src="./assets/img/7.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/8.png">
+        <img src="./assets/img/8.png" width="600" height="400">
+    </a>
+    <div class="desc">Merchandise for art markets.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/9.png">
+        <img src="./assets/img/9.png" width="600" height="400">
+    </a>
+    <div class="desc">VTuber model work.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/10.png">
+        <img src="./assets/img/10.png" width="600" height="400">
+    </a>
+    <div class="desc">VTuber model work.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/11.png">
+        <img src="./assets/img/11.png" width="600" height="400">
+    </a>
+    <div class="desc">VTuber model work.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/12.png">
+        <img src="./assets/img/12.png" width="600" height="400">
+    </a>
+    <div class="desc">VTuber model work.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/13.png">
+        <img src="./assets/img/13.png" width="600" height="400">
+    </a>
+    <div class="desc">Commissioned art.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/14.png">
+        <img src="./assets/img/14.png" width="600" height="400">
+    </a>
+    <div class="desc">Commissioned art.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/17.jpg">
+        <img src="./assets/img/17.jpg" width="600" height="400">
+    </a>
+    <div class="desc">(Paused) Own Webtoon.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/18.jpg">
+        <img src="./assets/img/18.jpg" width="600" height="400">
+    </a>
+    <div class="desc">(Paused) Own Webtoon.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/19.jpg">
+        <img src="./assets/img/19.jpg" width="600" height="400">
+    </a>
+    <div class="desc">(Paused) Own Webtoon.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/20.jpg">
+        <img src="./assets/img/20.jpg" width="600" height="400">
+    </a>
+    <div class="desc">(Paused) Own Webtoon.</div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/15.png">
+        <img src="./assets/img/15.png" width="600" height="400">
+    </a>
+    <div class="desc">Personal art.</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="./assets/img/16.png">
+        <img src="./assets/img/16.png" width="600" height="400">
+    </a>
+    <div class="desc">Personal art.</div>
+    </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+</div>
+
 </body>
 </html>

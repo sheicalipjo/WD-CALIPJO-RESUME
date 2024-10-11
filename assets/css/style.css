@@ -33,7 +33,7 @@ body {
         padding: 60px;
         font-size: 16px;
         color: #fff;
-        background: linear-gradient(rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));
+        background: linear-gradient(rgb(190, 92, 108), rgb(255, 254, 254), rgb(190, 92, 108));
         background-repeat: no-repeat;
         background-size: 100%; 
 
@@ -110,3 +110,86 @@ img[src="./assets/img/IMAGE1.png"] {
         font-weight: light;
         color:  rgb(119, 33, 33);
         font-family: "Montserrat", sans-serif;}
+
+
+.container {
+  width: 100%;
+  background-color: #8f272700;
+}
+
+.skills {
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-size: 70% 70;
+    font-weight: bold;
+    color:  rgb(119, 33, 33);
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+.ps {width: 60%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.ai {width: 60%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.csp {width: 95%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.vgs {width: 80%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.au {width: 50%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.ma {width: 40%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+.can {width: 80%; background: linear-gradient(to right, rgb(190, 92, 108), rgb(255, 254, 254), rgb(133, 210, 208));}
+
+.expheader{
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-size: 70% 70;
+    font-weight: bold;
+    color:  rgb(119, 33, 33);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.experience1 {
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-size: 70% 70;
+    color:  rgb(119, 33, 33);
+    font-family: "Montserrat", sans-serif;
+}
+
+.artheader{
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-size: 70% 70;
+    font-weight: bold;
+    color:  rgb(119, 33, 33);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.responsive {
+    border-radius: 12px;
+    background: #ffffff5d;
+    border: 1px solid #ffffff65;
+    backdrop-filter: blur;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    background-size: 70% 70;
+}
