@@ -118,7 +118,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-
 | NAVBAR | nav bar glassy look | https://www.facebook.com/reel/3400909683388446 |
 | NAV IMG | navigator image or logo | https://stackoverflow.com/questions/37931506/image-in-css-nav-bar |
 | RESIZE IMG | resizing image in body | https://www.lambdatest.com/software-testing-questions/how-to-resize-an-image-in-css |
@@ -144,3 +143,4 @@ WD-ProjectName
 | BORDER | border radius | https://www.w3schools.com/css/css3_borders.asp |
 | GALLERY | css gallery | https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_gallery |
 | SKILL BAR | skill bar | https://www.w3schools.com/howto/howto_css_skill_bar.asp |
+
